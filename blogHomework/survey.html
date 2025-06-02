@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사</title>
+	<style>
+	/* survey-form */
+	#survey-form {
+		margin: 15px;
+		border: 5px solid lightgray;
+		background-color: lightgray;
+		width: 550px;
+		border-radius: 10px;
+	}
+
+	#survey-outer {
+		margin-left: 20px;
+		margin-top: 10px;
+	}
+
+	.survey-chk{font-size: smaller;}
+
+	.survey-text-input {
+		width: 400px;
+		margin: 10px;
+	}
+
+	.survey-chkbox {text-align: center;} 
+	#survey-form button {margin-bottom: 7px;}
+
+	</style>
+</head>
+<body>
+    <!-- survey-form -->
+		<div id="survey-form">
+			<div id="survey-outer">
+				<form action="homepage.html">
+					1. 게시물 만족도 조사 <br>
+					<table id="survey-table">
+						<tr>
+							<td></td>
+							<td class="survey-chk">그렇다</td>
+							<td class="survey-chk">중간</td>
+							<td class="survey-chk">아니다</td>
+						</tr>
+						<tr>
+							<td>본 블로그의 글이 이해하기 쉬웠습니까?</td>
+							<td class="survey-chkbox"><input type="radio" name="survey1" value="1"></td>
+							<td class="survey-chkbox"><input type="radio" name="survey1" value="2"></td>
+							<td class="survey-chkbox"><input type="radio" name="survey1" value="3"></td>
+						</tr>
+						<tr>
+							<td>본 블로그의 글이 도움이 되었습니까?</td>
+							<td class="survey-chkbox"><input type="radio" name="survey2" value="1"></td>
+							<td class="survey-chkbox"><input type="radio" name="survey2" value="2"></td>
+							<td class="survey-chkbox"><input type="radio" name="survey2" value="3"></td>
+						</tr>
+						<tr>
+							<td>본 블로그를 추가로 방문할 의사가 있습니까?</td>
+							<td class="survey-chkbox"><input type="radio" name="survey3" value="1"></td>
+							<td class="survey-chkbox"><input type="radio" name="survey3" value="2"></td>
+							<td class="survey-chkbox"><input type="radio" name="survey3" value="3"></td>
+					</table> <br>
+					2. 본 블로그에 추가되었으면 하는 컨텐츠가 있습니까? <br>
+					<input type="text" name="q2" class="survey-text-input"> <br>
+	
+					3. 본 블로그에 개선되었으면 하는 부분이 있습니까? <br>
+					<input type="text" name="q2" class="survey-text-input"> <br>
+					<div id="survey-button"><button>제출</button></div>
+				</form>
+			</div>
+		</div>
+    
+</body>
+</html>

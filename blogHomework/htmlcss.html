@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML·CSS</title>
+    <link rel="stylesheet" href="htmlcss.css">
+</head>
+<body>
+    <div id="outer">
+        <div id="top">
+            <div id="top-title">
+                <a id="a-title" href="homepage.html">
+                    <div id="title"><span id="title-span">GJ의 기술블로그</span></div>
+                </a>
+            </div>
+            <div id="search">
+                <input type="search" placeholder="검색어 입력">
+				<button>검색</button>
+            </div>
+
+        </div>
+        <div id="navi">
+            <div class="menu">
+                <div>글자, 목록, 표, 영역</div>
+            </div>
+            <div class="menu">미디어, 하이퍼링크</div>
+            <div class="menu">form, 선택자</div>
+            <div class="menu">레이아웃</div>
+            <div class="menu">변형, 애니메이션</div>
+        </div>
+        <div id="section1">
+            <div id="section-box1">
+                <div id="img1">
+                    <img src="data:image/png;base64,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" alt="flex">
+                    
+                </div>
+                <div id="text1">
+                    웹사이트의 모습을 기술하기 위한 마크업 언어. 프로그래밍 언어가 아니라 마크업 정보를 표현하는 마크업 언어로 문서의 내용 이외의 문서의 구조나 서식 같은 것을 포함한다. 보면 알겠지만 애초에 이름 HTML의 ML이 마크업 언어라는 뜻이다. 웹사이트에서 흔히 볼 수 있는 htm이나 html 확장자가 바로 이 언어로 작성된 문서다.
+
+                </div>
+            </div>
+            <div id="section-box2">
+                <div id="img2">
+                    <!-- <img src="https://i.namu.wiki/i/RWMQGoP8-R-Wlmlea3fmxAdZ8xxUQ9d_Amx15dCmNZDXcdvSz0fKn0z2fxLSH6KJQmKTqCHNVjYblEt82uBgKLzc3vAc4DW3zPOEjnd5kcpS1MO5An_aGytRjsTacdVi9wwcCL_N9HnntYvoMJH3Vg.svg" alt="css"> -->
+                    <img src="https://i.namu.wiki/i/DLvI3H3jjaK2ONvOQZCzadfWeMkXkNRamQJr_O4oY7vah_ALG9oA6qqP-3DFbqs_fyUDHO7oIrtosaxe1jGX1A.svg" alt="css">
+                </div>
+                <div id="text2">
+                    HTML 등의 마크업 언어로 작성된 문서가 실제로 웹사이트에 표현되는 방법을 정해주는 스타일시트 언어.
+
+CSS의 C가 Cascading의 약자인데, 이는 상위 요소의 스타일 속성을 자손 요소들에게 상속시켜 주는 모습이 DOM 트리 구조에서 마치 폭포수처럼 내려가는 모습을 닮았기 때문이다. 다만 예외로 마진, 패딩, 보더 등의 박스 모델 관련 속성은 상속되지 않는다. 물론 inherit값을 줘서 강제로 상속시킬 순 있다.
+
+스타일 시트 언어이므로 일반적인 프로그래밍 언어와는 다른 종류의 기능을 하지만 HTML과 연결시키면 다음 코드로 Hello World를 출력할 수 있기도 하다.
+                </div>
+            </div>
+        </div>
+        <div id="section2">
+            <form action="">
+                <textarea name="note" id="note" placeholder="노트를 작성하세요."></textarea>
+                <button id="note-save">저장</button>
+            </form>
+            
+        </div>
+        <div id="footer">
+            <div>Notion : https://www.notion.so/4-1-html-1c878b2635728094b7daee7cb9a7a1d2?pvs=4</div>
+        </div>
+    </div>
+    
+</body>
+</html>

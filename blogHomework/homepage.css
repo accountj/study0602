@@ -1,0 +1,317 @@
+#outer {
+    width: 60%;
+    margin: auto;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c2b39;
+    padding: 16px 24px;
+  }
+
+
+#search input[type="search"], #id, #pwd {
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  #search button, #login-btn {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 50px;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  #search button:hover, #login-btn:hover {
+    background-color: rgb(102, 102, 102);
+  }
+
+#title {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#title-span {
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+#a-title{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+
+.circle {
+    width: 20px; 
+    height: 20px; 
+    background-color: #1c2b39; 
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+/* cards */
+#cards-pro-side{
+    width: 100%;
+    background-color: white;
+    
+}
+
+#cards {
+    float: right;
+    background-color: goldenrod;
+    width: 70%;
+    text-align: center;
+}
+
+.card-box{
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 40%;
+    height: 30vh;
+    margin: 15px;
+    background-color: whitesmoke;
+}
+
+.card-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.card-box:hover{
+    opacity: 0.5; 
+    cursor: pointer;
+}
+
+.card-box1{height: 70%}
+
+.card-box2{
+    border-top: 1px solid black;
+    height: 30%;
+    overflow-y: scroll;
+}
+
+#cards-pro-side>div {display: inline-block;}
+
+#cards>div {display: inline-block;}
+
+
+/* profile + menubar */
+.pro-side{
+    width:25%;
+    background-color: white;
+}
+#profile {
+    height: 250px;
+    background-color: #1c2b39;
+}
+
+#id {
+  margin-bottom: 3px;
+}
+
+.login-form {
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.welcome {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+
+#pro-pic {
+    width: 100%;
+    height: 65%;
+}
+
+#sidebar {
+    background-color: white ;
+    color: black
+}
+
+
+/* visited */
+#bottom {
+    background-color: white;
+}
+#visited-outer {
+    color: rgb(87, 87, 87);
+}
+
+
+/* commnets */
+#mycomment{
+    width: 400px;
+    height: 40px;
+}
+.comments {
+    width: 100%;
+    background-color: white;
+}
+
+#commnet-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+  
+  #commnet-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .comnt-id {
+    font-weight: bold;
+    color: #1c2b39;
+    width: 25%;
+  }
+  
+  .comnt-date {
+    color: darkgray;
+    font-size: 13px;
+    width: 50%;
+  }
+
+  .highlight {
+      border-left: 4px solid goldenrod;
+  }
+  
+  .comnt-comment {
+    background-color: #e9eff5;
+    color: #333;
+    font-size: 15px;
+    padding: 14px 20px;
+    /* border-left: 4px solid goldenrod; */
+  }
+
+  #mycommnet-outer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f1f4f8;
+    border-radius: 12px;
+    display: flex;
+    gap: 12px;
+  }
+
+  #comment-button, #select-button, #delete-button, #update-button {
+    width: 50px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  #comment-button:hover, #select-button:hover, #update-button:hover {
+    background-color: rgb(102, 102, 102);
+  }
+
+  #delete-button:hover {
+    background-color: rgb(215, 3, 3);
+  }
+
+  #mycomment{
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  #nickname {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+  }
+
+/* survey */
+#survey-mark {
+    width: 40px;
+    height: 40px;
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 6000;
+    margin-left: 320px;
+}
+
+#survey-mark:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+
+#survey-letter{
+    color: inherit;
+    font-weight: bolder;
+}
+
+/* menu-list */
+.menu-list:hover .menu-list-span {
+    text-decoration: underline;
+}
+
+.menu-list{
+    list-style-type: none;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: -20px;
+    height: 50px;
+}
+
+.addmenu-ul {
+	display: none;
+	list-style: none;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+.menu-list:hover .addmenu-ul {
+	display: block;
+}
+
+.menu-list-span {
+	display: inline-block;
+	text-align: center; 
+	cursor: pointer;
+    font-size: larger;
+}
+
+.addmenu {
+	color: #1c2b39;
+    cursor: pointer;
+}
